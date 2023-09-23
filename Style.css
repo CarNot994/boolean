@@ -1,0 +1,78 @@
+
+body{
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: auto;
+}
+main{
+    width: 55%;
+    height: 60%;
+    padding: 5% 5%; 
+    margin: 1.5% auto;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 3%;
+    color: white;
+}
+header{
+    width: 55%;
+    margin:auto;
+}
+header>img{
+    display: block;
+    width: 45%;
+    margin: auto;
+}
+
+header>h1{
+    color: greenyellow;
+    font-size: 40px;
+    text-align: center;
+    margin: auto;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: greenyellow;
+    height: 40px;
+}
+
+section{
+    padding-top: 2%;
+}
+section .monopattino{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;   
+}
+section .posizione{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;   
+}
+
+section .carica{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;   
+
+}
+section .barra-carica1{
+    width: 35%;
+    height: 30px;
+    border-radius: 8px;
+    background-color: orange;
+}
+
+section .barra-carica2{
+    width: 65%;
+    height: 30px;
+    border-radius: 8px;
+    background-color: lightgreen;
+}
+
+section .barra-carica3{
+    width: 25%;
+    height: 30px;
+    border-radius: 8px;
+    background-color: red;
+}
